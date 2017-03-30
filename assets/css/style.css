@@ -1410,7 +1410,7 @@ input::-ms-input-placeholder {
 
 .scrollup_audio{
     height:20px;
-    width:80%;
+    width:10%;
    
     position:fixed;
     z-index:999;

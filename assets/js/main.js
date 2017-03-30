@@ -139,19 +139,7 @@ jQuery(document).ready(function ($) {
         return false;
     });
     
-    // scroll Up audio
-
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 600) {
-            $('.scrollup_audio').fadeIn('slow');
-        } else {
-            $('.scrollup_audio').fadeOut('slow');
-        }
-    });
-    $('.scrollup_audio').click(function () {
-        $("html, body").animate({scrollTop: 0}, 1000);
-        return false;
-    });
+   
 
 
 
